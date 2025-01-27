@@ -10,8 +10,8 @@ public class Modulo {
     }
 
     public String modulo(int a, int b) {
-        int sum = a / b;
-        return "The result from modulo is: " + sum;
+        int sum = a % b;
+        return a + "%" + b + "=" + sum;
     }
 
 }

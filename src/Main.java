@@ -6,6 +6,8 @@ public class Main {
         Multiply mul = new Multiply();
         Division div = new Division();
         Modulo mod = new Modulo();
+        
+        History hist = new History();
 
         System.out.println(add.addition(66, 8));
         System.out.println(sub.substraction(55, 80));

@@ -10,7 +10,7 @@ public class Addition {
 
     public String addition(int a, int b) {
         int sum = a + b;
-        return "t result from addition is: " + sum;
+        return a + " + " + b + " = " + sum;
     }
 
 }
