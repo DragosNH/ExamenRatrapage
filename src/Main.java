@@ -15,5 +15,7 @@ public class Main {
         System.out.println(div.divide(8,8));
         System.out.println(mod.modulo(3,6));
 
+        System.out.println(hist.toString());
+
     }
 }

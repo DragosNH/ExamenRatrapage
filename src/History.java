@@ -1,11 +1,11 @@
 public class History {
 
-    public static int[] history(int a, int his[], int b){
+    public static int[] history(int a, int b, int[] hist){
 
         int last[] = new int[a + 1];
 
         for(int i = 0; i <= a; i++){
-            last[i] = his[i];
+            last[i] = hist[i];
         }
 
         last[b] = a;
@@ -13,5 +13,8 @@ public class History {
         return last;
     };
 
-
+    @Override
+    public String toString() {
+        return "";
+    }
 }
