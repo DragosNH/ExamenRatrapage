@@ -11,7 +11,7 @@ public class Multiply {
 
     public String multiply(int a, int b) {
         int sum = a * b;
-        return "Result is: " + sum;
+        return "The result from multiplication is: " + sum;
     }
 
 }

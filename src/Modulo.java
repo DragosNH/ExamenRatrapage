@@ -11,7 +11,7 @@ public class Modulo {
 
     public String modulo(int a, int b) {
         int sum = a / b;
-        return "Result is: " + sum;
+        return "The result from modulo is: " + sum;
     }
 
 }

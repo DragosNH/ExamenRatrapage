@@ -11,7 +11,7 @@ public class Substract {
 
     public String substraction(int a, int b) {
         int sum = a - b;
-        return "Result is: " + sum;
+        return "Tre result from substraction is: " + sum;
     }
 
 }

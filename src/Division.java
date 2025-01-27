@@ -11,7 +11,7 @@ public class Division {
 
     public String divide(int a, int b) {
         int sum = a / b;
-        return "Result is: " + sum;
+        return "The result from division is: " + sum;
     }
 
 }
