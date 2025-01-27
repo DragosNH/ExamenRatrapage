@@ -11,7 +11,13 @@ public class Division {
 
     public String divide(int a, int b) {
         int sum = a / b;
+
+        if(a == 0 || b == 0) {
+            return "Division not possible";
+        }
+
         return a + "/" + b + "=" + sum;
+
     }
 
 }
