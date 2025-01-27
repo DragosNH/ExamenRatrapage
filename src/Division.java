@@ -13,7 +13,7 @@ public class Division {
         int sum = a / b;
 
         if(a == 0 || b == 0) {
-            return "Division not possible";
+            return "Can not divide by zero";
         }
 
         return a + "/" + b + "=" + sum;
